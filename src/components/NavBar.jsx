@@ -1,7 +1,7 @@
 import Link from "next/link"
-import { caprasimo, montserrat} from "../app/layout"
 import Menu from "./Menu"
 import { ShoppingBasket } from "lucide-react"
+import { caprasimo, montserrat } from "@/app/layout"
 
 function NavBar() {
     return (

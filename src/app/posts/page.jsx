@@ -1,5 +1,4 @@
-import PostCart from "../../components/PostCart"
-
+import PostCart from "@/components/PostCart"
 
 async function loadPosts() {
     const res = await fetch("https://jsonplaceholder.typicode.com/posts")
@@ -9,9 +8,7 @@ async function loadPosts() {
 }
 
 async function Posts() {
-
     const posts = await loadPosts()
-
     return (
         <div >
             <PostCart posts={posts} />

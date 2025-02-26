@@ -10,7 +10,7 @@ function Home() {
                 <img src="/mundo.jpg" alt="imagen" className="rounded-xl shadow-xl w-auto h-auto hover:scale-105 transition-all duration-700" />
             </div>
             <div className="md:hidden w-full h-auto">
-                <img src="/nubes.jpg" alt="imagen" className="rounded-xl shadow-xl w-auto h-auto hover:scale-110 transition-all duration-700" />
+                <img src="/nubes.jpg" alt="imagen" className="rounded-xl shadow-xl w-auto h-auto hover:scale-105 transition-all duration-700" />
             </div>
         </div>
     )

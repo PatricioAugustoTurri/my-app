@@ -1,7 +1,8 @@
 import "./globals.css"
-import NavBar from "../components/NavBar"
 import { Montserrat, Caprasimo, Vibur, Pacifico } from "next/font/google"
-import Footer from "../components/Footer"
+import Footer from "@/components/Footer"
+import NavBar from "@/components/NavBar"
+
 
 export const metadata = {
     title: "Illustrando",
