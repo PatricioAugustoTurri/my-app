@@ -9,6 +9,7 @@ async function loadPost(a) {
 }
 
 async function Page({ params }) {
+    
     const post = await loadPost(params.id)
 
     return (

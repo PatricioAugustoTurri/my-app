@@ -1,5 +1,5 @@
 import "./globals.css"
-import { Montserrat, Caprasimo, Vibur, Pacifico } from "next/font/google"
+import { Montserrat, Caprasimo, Vibur } from "next/font/google"
 import Footer from "@/components/Footer"
 import NavBar from "@/components/NavBar"
 
@@ -13,25 +13,19 @@ export const metadata = {
 export const montserrat = Montserrat({
     weight: ["400", "500", "600", "700", "800", "900"],
     style: ["normal"],
-    subsets: ["latin" , "latin-ext"]
-})
-
-export const caprasimo = Caprasimo ({
-    weight: ["400"],
-    style: ["normal"],
-    subsets: ["latin"],
-})
-
-export const vibur = Vibur ({
-    weight: ["400"],
-    style: ["normal"],
-    subsets: ["latin"],
-})
-
-export const pacifico = Pacifico ({
-    weight: ["400"],
-    style: ["normal"],
     subsets: ["latin", "latin-ext"]
+})
+
+export const caprasimo = Caprasimo({
+    weight: ["400"],
+    style: ["normal"],
+    subsets: ["latin"],
+})
+
+export const vibur = Vibur({
+    weight: ["400"],
+    style: ["normal"],
+    subsets: ["latin"]
 })
 
 function RootLayout({ children }) {

@@ -16,7 +16,7 @@ function Menu() {
 
     return (
         <div>
-            <button onClick={() => setAbrir(!abrir)} className="text-white hover:text-customColorFlamingo"><MenuIcon size={35} /></button>
+            <button onClick={() => setAbrir(!abrir)} className="text-customColorFlamingo hover:text-white"><MenuIcon size={35} /></button>
             {abrir && <div className="fixed w-full h-full bg-black opacity-50 z-10 top-0 left-0" onClick={() => setAbrir(false)} />}
             <div className={`h-full bg-customColorLilac fixed ${abrir ? "-translate-x-0" : "-translate-x-full"} transition-all shadow-xl duration-500 ease-in-out z-20 top-0 left-0 w-60 rounded-md`}>
                 <div className="flex flex-col gap-8 p-6">
