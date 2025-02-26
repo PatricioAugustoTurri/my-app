@@ -9,11 +9,10 @@ export const metadata = {
     keywords: "tienda, online, illustra"
 }
 
-
 export const montserrat = Montserrat({
     weight: ["400", "500", "600", "700", "800", "900"],
     style: ["normal"],
-    subsets: ["latin"],
+    subsets: ["latin" , "latin-ext"]
 })
 
 export const caprasimo = Caprasimo ({

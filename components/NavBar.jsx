@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { caprasimo} from "../app/layout"
+import { caprasimo, montserrat} from "../app/layout"
 import Menu from "./Menu"
 import { ShoppingBasket } from "lucide-react"
 
@@ -16,10 +16,10 @@ function NavBar() {
                 </div>
                 <div className="hidden md:block">
                     <div className="gap-10 flex">
-                        <Link href="/" className={caprasimo.className + " hover:text-customColorFlamingo text-xl"}>Home</Link>
-                        <Link href="/about" className={caprasimo.className + " hover:text-customColorFlamingo text-xl"}>About</Link>
-                        <Link href="/tienda" className={caprasimo.className + " hover:text-customColorFlamingo text-xl"}>Shop</Link>
-                        <Link href="/posts" className={caprasimo.className + " hover:text-customColorFlamingo text-xl"}>Posts</Link>
+                        <Link href="/" className={montserrat.className + " hover:text-customColorFlamingo text-xl"}>Home</Link>
+                        <Link href="/about" className={montserrat.className + " hover:text-customColorFlamingo text-xl"}>About</Link>
+                        <Link href="/tienda" className={montserrat.className + " hover:text-customColorFlamingo text-xl"}>Shop</Link>
+                        <Link href="/posts" className={montserrat.className + " hover:text-customColorFlamingo text-xl"}>Posts</Link>
                     </div>
                 </div>
                 <div>
