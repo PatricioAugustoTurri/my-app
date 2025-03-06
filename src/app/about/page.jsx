@@ -11,6 +11,7 @@ function About() {
             <button
                 className="bg-customColorOliver hover:bg-customColorLilac text-white font-bold py-2 px-4 rounded-md"
                 onClick={()=>{
+                    alert ("click");
                     router.push("/")
                 }}
             >
