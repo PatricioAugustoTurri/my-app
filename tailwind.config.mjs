@@ -7,6 +7,9 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
     "./node_modules/tw-elements/js/**/*.js",
+    // Or if using `src` directory:
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/tw-elements/js/**/*.js",
     flowbite.content(),
   ],
   theme: {
@@ -24,5 +27,6 @@ export default {
   },
   plugins: [
     flowbite.plugin(),
+    [require("tw-elements/plugin.cjs")]
   ],
 };

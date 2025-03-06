@@ -1,4 +1,4 @@
-import Carousel from "@/components/Carousel"
+import Carousell from "@/components/Carousell"
 import { caprasimo } from "./layout"
 
 function Home() {
@@ -12,7 +12,7 @@ function Home() {
                 <img src="/mundo.jpg" alt="imagen" className="rounded-xl shadow-xl w-auto h-auto hover:scale-105 transition-all duration-700" />
             </div>
             <div className="md:hidden w-full h-auto">
-               <Carousel/>
+               <Carousell/>
             </div>
         </div>
     )

@@ -2,7 +2,8 @@
 
 import { useEffect } from "react";
 
-function Carousel () {
+function Carousell () {
+
     useEffect(() => {
         const init = async () => {
             const { Carousel, initTWE } = await import("tw-elements");
@@ -149,4 +150,4 @@ function Carousel () {
     )
 }
 
-export default Carousel;
+export default Carousell;
