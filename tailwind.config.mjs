@@ -6,7 +6,6 @@ export default {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
-
     "./node_modules/tw-elements/js/**/*.js",
     flowbite.content(),
   ],
@@ -23,9 +22,7 @@ export default {
       },
     },
   },
-  darkMode: "class",
   plugins: [
     flowbite.plugin(),
-    [require("tw-elements/plugin.cjs")]
   ],
 };
